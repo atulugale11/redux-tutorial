@@ -6,6 +6,33 @@
   height: 40vmin;
   pointer-events: none;
 }
+.img-wrapper img{
+  width: 120px;
+  float: left;
+}
+
+.btn-wrapper button {
+  background: #ff0000c9;
+  padding: 10px;
+  border: 0px;
+  border-radius: 4px;
+  color: #ffffff;
+}
+.cart-wrapper{
+  width: 500px;
+  height: 100px;
+  border:1px solid #CCC;
+  margin-left: 10%;
+  padding: 10px;
+}
+.add-to-cart{
+  width: 80px;
+    position: absolute;
+    right: 5%;
+}
+.add-to-cart img{
+  width:100px;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
